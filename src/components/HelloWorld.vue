@@ -124,8 +124,8 @@
   <footer class="bg-primary text-white text-center pb-5">
     <p>Created By <a href="https://www.instagram.com/friskywijaya01/" class="text-white fw-bold">Frisky Wijaya</a></p>
   </footer>
+    <link rel="stylesheet" href="style.css">
   <!--akhir footer-->
-<link rel="stylesheet" href="style.css">
 </template>
 
 <script>
@@ -134,6 +134,7 @@ export default {
   props: {
     msg: String
   }
+
 }
 </script>
 
